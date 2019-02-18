@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Ride Sharing Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="robots" content="noindex,nofollow">
+    <style>
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-linkedin {
+      background: dodgerblue;
+      color: white;
+    }
+
+    .fa-github {
+      background: dodgerblue;
+      color: white;
+    }
+  </style>
+  </head>
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar w3-blue w3-wide w3-padding w3-card"> <a href="index.html"
+          class="w3-bar-item w3-button"><b>Glen Dinolfo</b> Data Analyst</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small"> <a href="/index.html#projects" class="w3-bar-item w3-button">Projects</a>
+          <a href="/index.html#about" class="w3-bar-item w3-button">About Me</a>
+          <a href="resume.html" class="w3-bar-item w3-button">Resume</a> <a href="/index.html#contact"
+            class="w3-bar-item w3-button">Contact</a> </div>
+      </div>
+    </div>
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;"
+      id="home"> <br>
+      <br>
+      <center>
+        <h1><span class="w3-hide-small w3-text-black">Simulated Ride Sharing
+            Data Analysis</span></h1>
+      </center>
+      <p><br>
+      </p>
+      <center> <img class="w3-image" src="images/pyber.jpg" alt="pyber" height="800"
+          width="1500"></center>
+      <div class="w3-display-bottom w3-margin-top w3-center"> </div>
+    </header>
+    <p>
+      <!-- Page content --> </p>
+    <div style="margin-left: 40px;"> </div>
+    <p class="lead" style="margin-left: 40px;"><strong>Project Overview:&nbsp; </strong>This
+      project was analysis of a fictitious ride-sharing company, named “Pyber”.
+      I used Pandas and NumPy to analyze the data in a Jupyter notebook with
+      Matplotlib and Seaborn libraries to create visualizations to illustrate my
+      findings.</p>
+    <div style="margin-left: 40px;"> </div>
+    <p class="lead" style="margin-left: 40px;"><strong>Approach:&nbsp; </strong>Data
+      was provided as a CSV file that I read into a Pandas data frame for easier
+      evaluating and from there I sorted and grouped and ran basic functions to
+      determine the number of rides, number of drivers and average fare for each
+      type of city (urban, rural, city). From that data I created a bubble chart
+      comparing the number of rides to the average fare price and number of
+      drivers in each type of city as well as pie charts illustrating each of
+      the previous variables individually by city type.</p>
+    <div style="margin-left: 40px;"> </div>
+    <p class="lead" style="margin-left: 40px;"><strong>Conclusions:&nbsp; </strong>Rural
+      Areas had less drivers and riders, but no well defined trend in
+      relationship to average fare. This could possibly be explained by
+      population density of rural areas versus urban areas. Drivers in rural
+      areas only make up 2.6% of the total drivers while rural areas account for
+      approximately 6% of total fares and rides. We also see data points for
+      rural average fare well above what is experienced in the city probably due
+      to a higher average distance between points of interest in rural areas.
+      The number of drivers seems to increase with city classification with
+      rural areas having the least amount of drivers per city and urban areas
+      having more. There are, however, data points for urban areas that have
+      similar number of drivers. There seems to be a negative relationship
+      between the number of rides and the average fare. This is more well
+      defined for the suburban and urban city classifications. This might the
+      average distance a rider is traveling in these cities. Average travel
+      distance would be a good dataset to analyze further. However, cities make
+      up for 63% and 68% of total fare and rides respectively, but the number of
+      drivers in the city is 86.2% of the total drivers. It is possible that
+      there is an over supply of drivers in these cities causing lower prices. A
+      similar, but less dramatic trend is seen with suburban areas. It would be
+      beneficial to see the data on surge pricing to see how the supply of
+      drivers effects average fare.</p>
+    <!-- Image of location/map -->
+    <div class="w3-row-padding"><br>
+      <div class="w3-container">
+        <center><img src="images/pyber1.png" class="w3-image" style="width: 335px; height: 223px;">
+          <img src="images/pyber2.png" class="w3-image" style="width: 310px; height: 232px;">
+          <img src="images/pyber3.png" class="w3-image" style="width: 344px; height: 232px;">
+        </center>
+      </div>
+      <div class="w3-row-padding"><br>
+        <div class="w3-container"> </div>
+        <!-- End page content -->
+        <!-- Footer -->
+        <footer class="w3-center w3-black w3-padding-3">
+          <p><a href="#" class="fa fa-linkedin"></a><a href="#" class="fa fa-github"></a></p>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

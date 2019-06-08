@@ -35,28 +35,24 @@
   <body>
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
-      <div class="w3-bar w3-blue w3-wide w3-padding w3-card"> <a href="index.html"
-
+      <div class="w3-bar w3-blue w3-wide w3-padding w3-card"> <a href="index.html"
           class="w3-bar-item w3-button"><b>Glen Dinolfo</b> Data Analyst</a>
         <!-- Float links to the right. Hide them on small screens -->
         <div class="w3-right w3-hide-small"> <a href="/index.html#projects" class="w3-bar-item w3-button">Projects</a>
           <a href="/index.html#about" class="w3-bar-item w3-button">About Me</a>
-          <a href="resume.html" class="w3-bar-item w3-button">Resume</a> <a href="/index.html#contact"
-
+          <a href="resume.html" class="w3-bar-item w3-button">Resume</a> <a href="/index.html#contact"
             class="w3-bar-item w3-button">Contact</a> </div>
       </div>
     </div>
     <!-- Header -->
-    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;"
-
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;"
       id="home"><br>
       <br>
       <h1>
         <center><span class="w3-hide-small w3-text-black">Los Angeles Parking
             Citation Analysis</span></center>
       </h1>
-      <center> <img class="w3-image" src="images/la.PNG" alt="losangeles" height="800"
-
+      <center> <img class="w3-image" src="images/la.PNG" alt="losangeles" height="800"
           width="1500"></center>
       <div class="w3-display-bottom w3-margin-top w3-center"> </div>
     </header>
@@ -99,8 +95,7 @@
         </div>
         <br>
         <div class="w3-row-padding">
-          <center><img src="images/exp1.PNG" alt="explination1" title="explination1"
-
+          <center><img src="images/exp1.PNG" alt="explination1" title="explination1"
               style="width: 789px; height: 90px;"></center>
           <br>
           <br>
@@ -108,50 +103,41 @@
             <center><img src="images/visualization_2.svg" class="w3-image" style="width: 774px; height: 370px;"></center>
           </div>
           <div class="w3-container">
-            <center><img src="images/exp6.PNG" alt="timeexplanation" title="timeexplanation"
-
+            <center><img src="images/exp6.PNG" alt="timeexplanation" title="timeexplanation"
                 style="width: 788px; height: 83px;"></center>
             <br>
             <br>
             <div class="w3-container">
               <center><img src="images/visualization_3.svg" class="w3-image" style="width: 746px; height: 297px;"></center>
-              <center><img src="images/exp3.PNG" alt="explanation3" title="explanation3"
-
+              <center><img src="images/exp3.PNG" alt="explanation3" title="explanation3"
                   style="width: 745px; height: 123px;"></center>
               <br>
               <br>
               <div class="w3-container">
                 <center><img src="images/visualization_4.svg" class="w3-image" style="width: 813px; height: 646px;"></center>
-                <center><img src="images/exp2.PNG" alt="explanation2" title="explanation2"
-
-                    style="width: 835px; height: 66px;"></center>
+                <center><img src="images/exp2.PNG" alt="explanation2" title="explanation2"
+                    style="width: 835px; height: 100px;"></center>
                 <br>
                 <br>
                 <div class="w3-container">
-                  <center><img src="images/CitationByCarColor.jpg" class="w3-image"
-
+                  <center><img src="images/CitationByCarColor.jpg" class="w3-image"
                       style="width: 762px; height: 228px;"></center>
                   <center><br>
-                    <img src="images/exp5.PNG" alt="explanation5" title="explanation5"
-
+                    <img src="images/exp5.PNG" alt="explanation5" title="explanation5"
                       style="width: 831px; height: 64px;"></center>
                   <br>
                   <br>
                   <div class="w3-container">
-                    <center><img src="images/CitationDataBubbleChart.jpg" class="w3-image"
-
+                    <center><img src="images/CitationDataBubbleChart.jpg" class="w3-image"
                         style="width: 685px; height: 685px;"></center>
-                    <center><img src="images/exp4.PNG" alt="explanation4" title="explanation4"
-
+                    <center><img src="images/exp4.PNG" alt="explanation4" title="explanation4"
                         style="width: 856px; height: 61px;"></center>
                     <br>
                     <br>
                     <div class="w3-container">
-                      <center><img src="images/CitationsPerDay.jpg" class="w3-image"
-
+                      <center><img src="images/CitationsPerDay.jpg" class="w3-image"
                           style="width: 841px; height: 317px;"></center>
-                      <center><img src="images/exp7.PNG" alt="month explanation"
-
+                      <center><img src="images/exp7.PNG" alt="month explanation"
                           title="month explanation" style="width: 839px; height: 65px;"></center>
                       <br>
                       <br>
@@ -162,8 +148,7 @@
               <!-- End page content -->
               <!-- Footer -->
               <footer class="w3-center w3-black w3-padding-3">
-                <p><a href="https://www.linkedin.com/in/gdinolfo/" class="fa fa-linkedin"></a><a
-
+                <p><a href="https://www.linkedin.com/in/gdinolfo/" class="fa fa-linkedin"></a><a
                     href="https://github.com/gdinolfo" class="fa fa-github"></a></p>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
               </footer>
